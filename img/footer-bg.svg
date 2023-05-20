@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="461.31873mm"
+   height="182.29791mm"
+   viewBox="0 0 461.31873 182.29791"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   sodipodi:docname="footer-bg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(310.37349,-276.77113)"><g
+       style="fill:none"
+       id="g18"
+       transform="matrix(0.32036022,0,0,0.26458333,-310.37349,276.77114)"
+       inkscape:export-filename="footer-bg.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><path
+         d="M 1360,40 C 1360,17.9086 1342.09,0 1320,0 H 120 C 97.9086,0 80,17.9086 80,40 v 104 c 0,22.091 -17.9086,40 -40,40 H 0 V 689 H 1440 V 184 h -40 c -22.09,0 -40,-17.909 -40,-40 z"
+         fill="#0c111f"
+         id="path9" /></g></g></svg>

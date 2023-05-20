@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agenone</title>
+
+    <!-- icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- tailwindCss -->
+    <link rel="stylesheet" href="../css/output.css" />
+  </head>
+  <body class="overflow-x-hidden font-inter">
+    <header class="section ornament" id="header">
+      <div class="wrapper">
+        <nav class="flex justify-between items-center">
+          <a href="index.html" class="logo">
+            <img src="../img/logo.svg" alt="logo" />
+          </a>
+
+          <ul
+            class="flex items-center gap-[50px] font-medium text-lg leading-[14px] tracking-[1px] text-white py-[40px]"
+          >
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#footer">About Us</a></li>
+          </ul>
+
+          <a href="#footer" class="btn text-base py-4 px-6">Contact Us</a>
+        </nav>
+
+        <div class="header-content text-center">
+          <h3
+            class="font-medium text-sm leading-[20px] tracking-[1px] text-white mt-[112px] py-3 px-4 rounded-[100px] bg-white/10 inline-block"
+          >
+            NUMBER ONE CREATIVE DIGITAL AGENCY
+          </h3>
+
+          <h1
+            class="font-bold text-7xl leading-[76px] tracking-[0.1px] text-white pt-3"
+          >
+            <span class="gradient-text">Smart Choices</span> <br />
+            For Your Business Growth
+          </h1>
+
+          <p class="font-medium text-[20px] leading-7 text-[#B6B8BC] pt-6">
+            We're a team of experienced designers, developers, <br />
+            and marketers, passionate about delivering exceptional digital
+            solutions.
+          </p>
+
+          <a
+            href="#footer"
+            class="btn py-[20px] pl-8 pr-6 inline-flex items-center gap-2 mt-14"
+          >
+            <p class="text-[18px] leading-7">Contact Us</p>
+
+            <span class="material-symbols-outlined"> arrow_right_alt </span>
+          </a>
+        </div>
+
+        <div
+          class="benefit overflow-clip relative bg-shape bg-no-repeat bg-center h-[334px] mt-[80px] text-center"
+        >
+          <h3 class="font-semibold text-[32px] leading-[40px] text-white pt-6">
+            Benefit of improving your business
+          </h3>
+
+          <div
+            class="benefit-card flex justify-between items-center gap-[80px] px-[100px] py-[50px]"
+          >
+            <div class="card text-center">
+              <img class="inline" src="../img/benefit-1.svg" alt="" />
+
+              <h3 class="font-medium text-2xl text-white pt-[10px]">
+                Expanding the Market
+              </h3>
+            </div>
+
+            <div class="card text-center">
+              <img class="inline" src="../img/benefit-2.svg" alt="" />
+
+              <h3 class="font-medium text-2xl text-white pt-[10px]">
+                Cost-Effective
+              </h3>
+            </div>
+
+            <div class="card text-center">
+              <img class="inline" src="../img/benefit-3.svg" alt="" />
+
+              <h3 class="font-medium text-2xl text-white pt-[10px]">
+                More Professional
+              </h3>
+            </div>
+
+            <div class="card text-center">
+              <img class="inline" src="../img/benefit-4.svg" alt="" />
+
+              <h3 class="font-medium text-2xl text-white pt-[10px]">
+                Attract Client
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="services pt-[100px]" id="services">
+      <div class="wrapper">
+        <h1
+          class="font-bold text-[72px] leading-[78px] tracking-[-2%] text-[#0C111F] text-center mb-[118px]"
+        >
+          The Services We Offer <span class="gradient-text">For You</span>
+        </h1>
+
+        <div
+          class="services-content bg-[#F8F8F8] rounded-[20px] flex gap-[40px] py-[54px] px-[60px] mb-[40px]"
+        >
+          <div class="number">
+            <h3 class="font-semibold text-[32px] leading-[40px] gradient-text">
+              01
+            </h3>
+          </div>
+
+          <div class="w-full ui-ux">
+            <div class="flex items-center justify-between">
+              <h3
+                class="font-semibold text-[32px] leading-[40px] gradient-text"
+              >
+                UI/UX Design
+              </h3>
+
+              <span
+                onclick="show()"
+                class="material-symbols-outlined font-extrabold text-4xl gradient-text cursor-pointer toggle-btn"
+              >
+                arrow_downward
+              </span>
+            </div>
+
+            <div class="toggle-content">
+              <p class="font-normal text-lg text-[#5C5E60] pt-6 pb-[40px]">
+                Lorem ipsum dolor sit amet consectetur. Nibh luctus nisi ac eu.
+                Ultricies nisl enim <br />
+                lacus id aliquam montes euismod urna sem.
+              </p>
+
+              <img class="w-full" src="../img/ui-ux-img.png" alt="ui-ux-img" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="services-content bg-[#F8F8F8] rounded-[20px] flex gap-[40px] py-[54px] px-[60px] mb-[40px]"
+        >
+          <div class="number">
+            <h3 class="font-semibold text-[32px] leading-[40px] gradient-text">
+              02
+            </h3>
+          </div>
+
+          <div class="w-full ui-ux">
+            <div class="flex items-center justify-between">
+              <h3
+                class="font-semibold text-[32px] leading-[40px] gradient-text"
+              >
+                Digital Marketing
+              </h3>
+
+              <span
+                class="material-symbols-outlined font-extrabold text-4xl gradient-text"
+              >
+                arrow_forward
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="services-content bg-[#F8F8F8] rounded-[20px] flex gap-[40px] py-[54px] px-[60px] mb-[40px]"
+        >
+          <div class="number">
+            <h3 class="font-semibold text-[32px] leading-[40px] gradient-text">
+              03
+            </h3>
+          </div>
+
+          <div class="w-full ui-ux">
+            <div class="flex items-center justify-between">
+              <h3
+                class="font-semibold text-[32px] leading-[40px] gradient-text"
+              >
+                Social Media Management
+              </h3>
+
+              <span
+                class="material-symbols-outlined font-extrabold text-4xl gradient-text"
+              >
+                arrow_forward
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="services-content bg-[#F8F8F8] rounded-[20px] flex gap-[40px] py-[54px] px-[60px] mb-[40px]"
+        >
+          <div class="number">
+            <h3 class="font-semibold text-[32px] leading-[40px] gradient-text">
+              04
+            </h3>
+          </div>
+
+          <div class="w-full ui-ux">
+            <div class="flex items-center justify-between">
+              <h3
+                class="font-semibold text-[32px] leading-[40px] gradient-text"
+              >
+                Development
+              </h3>
+
+              <span
+                class="material-symbols-outlined font-extrabold text-4xl gradient-text"
+              >
+                arrow_forward
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience p-[80px]">
+      <p
+        class="font-medium text-[44px] leading-[52px] tracking-[-2%] text-[#0C111F]"
+      >
+        We are passionate about helping businesses grow and succeed in the
+        digital age. We take pride in our work and strive to exceed your
+        expectations every time.
+      </p>
+
+      <div
+        class="primary-bg p-[58px] rounded-[20px] mt-16 flex justify-between items-center"
+      >
+        <div class="text-center">
+          <h3
+            class="font-bold text-[72px] leading-[76px] tracking-[-2%] text-white"
+          >
+            10+
+          </h3>
+
+          <p
+            class="font-medium text-2xl leading-[28px] tracking-[-2%] text-[#f3f3f3]"
+          >
+            Years of experience
+          </p>
+        </div>
+
+        <div class="text-center">
+          <h3
+            class="font-bold text-[72px] leading-[76px] tracking-[-2%] text-white"
+          >
+            666+
+          </h3>
+
+          <p
+            class="font-medium text-2xl leading-[28px] tracking-[-2%] text-[#f3f3f3]"
+          >
+            Project Completed
+          </p>
+        </div>
+
+        <div class="text-center">
+          <h3
+            class="font-bold text-[72px] leading-[76px] tracking-[-2%] text-white"
+          >
+            555+
+          </h3>
+
+          <p
+            class="font-medium text-2xl leading-[28px] tracking-[-2%] text-[#f3f3f3]"
+          >
+            Satisfied Client
+          </p>
+        </div>
+
+        <div class="text-center">
+          <h3
+            class="font-bold text-[72px] leading-[76px] tracking-[-2%] text-white"
+          >
+            10+
+          </h3>
+
+          <p
+            class="font-medium text-2xl leading-[28px] tracking-[-2%] text-[#f3f3f3]"
+          >
+            Awards Achieved
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project ornament pt-[100px]" id="project">
+      <div class="wrapper">
+        <h1
+          class="font-bold text-[72px] leading-[78px] tracking-[-2%] text-white text-center"
+        >
+          Our Project Have Been <span class="gradient-text">Done</span>
+        </h1>
+
+        <p
+          class="font-medium text-[20px] leading-7 text-[#B6B8BC] pt-6 text-center"
+        >
+          Take a look at some of our recent projects and see how we've helped
+          other businesses elevate <br />
+          their brand and drive business growth.
+        </p>
+
+        <div
+          class="projects-btn bg-[#F3F3F3] rounde-[100px] p-2 w-fit mx-auto mt-14 mb-16 rounded-[100px]"
+        >
+          <ul class="flex items-center gap-12">
+            <li
+              class="ui-ux py-4 px-6 font-medium text-base text-white primary-bg rounded-[100px]"
+            >
+              UI/UX Design
+            </li>
+            <li class="blank py-4 px-6 font-medium text-base text-[#333]">
+              Digital Marketing
+            </li>
+            <li class="blank py-4 px-6 font-medium text-base text-[#333]">
+              Sosmed Management
+            </li>
+            <li class="blank py-4 px-6 font-medium text-base text-[#333]">
+              Development
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex justify-center gap-[60px] flex-wrap">
+          <div class="project-card w-fit">
+            <img
+              class="rounded-[16px] block"
+              src="../img/project-img-1.svg"
+              alt=""
+            />
+
+            <h3 class="font-bold text-[32px] leading-[40px] text-white pt-6">
+              Title
+            </h3>
+
+            <p class="font-normal text-[20px] leading-7 text-[#B6B8BC] pt-3">
+              We are designed to help your business thrive in the online world.
+            </p>
+          </div>
+
+          <div class="project-card w-fit">
+            <img
+              class="rounded-[16px] block"
+              src="../img/project-img-2.svg"
+              alt=""
+            />
+
+            <h3 class="font-bold text-[32px] leading-[40px] text-white pt-6">
+              Title
+            </h3>
+
+            <p class="font-normal text-[20px] leading-7 text-[#B6B8BC] pt-3">
+              We are designed to help your business thrive in the online world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-company bg-[#0C111F]">
+      <div class="wrapper">
+        <img src="../img/trusted-company.svg" alt="trusted-company" />
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="wrapper">
+        <img src="../img/testimonials.svg" alt="testimonials" />
+      </div>
+    </section>
+
+    <section class="footer-bg bg-no-repeat bg-cover" id="footer">
+      <div class="wrapper">
+        <div
+          class="flex justify-between items-center text-white py-[40px] px-[100px] mb-[50px] border-b-[1px] border-solid border-[#3D414C]"
+        >
+          <h3 class="font-semibold text-[44px] leading-[52px] tracking-[-2%]">
+            Let's discuss and bring your <br />
+            vision to life.
+          </h3>
+
+          <a
+            href="#"
+            class="footer-btn flex items-center gap-2 py-[20px] pl-8 pr-6 primary-bg rounded-[100px]"
+          >
+            <p class="font-semibold text-lg">Let's Talk</p>
+
+            <span class="material-symbols-outlined"> arrow_forward </span>
+          </a>
+        </div>
+
+        <div
+          class="flex justify-between pb-[20px] border-b-[1px] border-solid border-[#3D414C]"
+        >
+          <div class="left">
+            <img src="../img/logo.svg" alt="" />
+
+            <p class="font-normal text-lg text-[#B6B8BC] pt-[25px]">
+              We're a team of experienced designers, <br />
+              developers, and marketers, passionate about <br />
+              delivering exceptional digital solutions.
+            </p>
+
+            <p class="font-medium text-lg text-[#B6B8BC] pt-[40px]">
+              hello@agenone.com
+            </p>
+          </div>
+
+          <div class="right flex gap-[120px]">
+            <ul class="font-normal text-lg text-[#B6B8BC]">
+              <li class="font-bold text-lg text-white pb-6">Menu</li>
+              <li class="pb-4"><a href="index.html">Home</a></li>
+              <li class="pb-4"><a href="#services">Services</a></li>
+              <li class="pb-4"><a href="#footer">About Us</a></li>
+              <li class="pb-4"><a href="#project">Project</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+
+            <ul class="font-normal text-lg text-[#B6B8BC]">
+              <li class="font-bold text-lg text-white pb-6">Support</li>
+              <li class="pb-4">FAQ</li>
+              <li class="pb-4">Privacy Policy</li>
+              <li class="pb-4">Terms of Service</li>
+            </ul>
+
+            <ul class="font-normal text-lg text-[#B6B8BC]">
+              <li class="font-bold text-lg text-white pb-6">Social Media</li>
+              <li class="pb-4">Linked In</li>
+              <li class="pb-4">Twitter</li>
+              <li class="pb-4">Instagram</li>
+              <li class="pb-4">Dribble</li>
+              <li class="pb-4">Behance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="made-by py-[20px]">
+          <p class="text-center font-bold text-lg text-white">made by <a class="gradient-text" target="_blank" href="https://www.instagram.com/saamcode/">saamcode</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- my js -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
