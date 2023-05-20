@@ -48,6 +48,10 @@
     width: 80%;
   }
 
+  .bg-shape {
+    background-image: url("../img/shape.svg");
+  }
+
   .show {
     display: none;
   }

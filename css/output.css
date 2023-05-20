@@ -1024,6 +1024,10 @@ nav ul li a:hover::after {
   width: 80%;
 }
 
+.bg-shape {
+  background-image: url("../img/shape.svg");
+}
+
 .show {
   display: none;
 }
